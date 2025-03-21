@@ -1,0 +1,13 @@
+text = "this one is to see how the str.find string works"
+index = text.find("how")
+print(index)
+flex = text.find("bro")
+print(flex)
+index2 = text.index("how")
+flex2 = text.index("to")
+print(flex2)
+print(index2)
+pp= text.startswith("this")
+pp2= text.startswith("hi")
+print(pp)
+print(pp2)
