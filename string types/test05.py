@@ -1,3 +1,6 @@
+# str.strip
+
+
 text = "   thise      text is to show or test the strip strings     "
 print(text.strip())
 print(text.lstrip())
