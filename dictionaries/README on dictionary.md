@@ -1,4 +1,4 @@
- dictionaries
+# dictionaries
 Dictionaries (dict) are phython's built in key value pair data structure, optimized for fast look up.
 The values are orderd changeable and fo not allow duplication.
 # test01
@@ -18,3 +18,14 @@ syntax key = dict.keys()
 -get()
 safely retrive a value for a key (avoids keyerrors)
 syntax  get = dict.get()
+# test03
+- pop()
+removes and returns the value of specified key
+safe usage of default (avoids keyerrors)
+syntax value = dict.pop(key,default)
+- popitem()
+removes and returns the last inserted key-value pair 
+syntax  key, value = dict.popitem()
+- setdefault()
+returns the value for key if it exists, otherwise inserts the key with default value
+syntax  value = dict.setdefault(key, default)
