@@ -29,3 +29,10 @@ syntax  key, value = dict.popitem()
 - setdefault()
 returns the value for key if it exists, otherwise inserts the key with default value
 syntax  value = dict.setdefault(key, default)
+# test04
+-update()
+add a value or update a value in a dictionary
+syntax  dict.update(iterable_or_dict)
+-values()
+returns a view of all values in the dictionary
+syntax values= dict.values()
