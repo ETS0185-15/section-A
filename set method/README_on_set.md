@@ -20,3 +20,15 @@ syntax : set.intersection_update(seta,setb,...)
 # issdisjooint()
 -checks if two sets have no common elements (retuns true if disjoint)
 syntax : set1.isdisjoint(set2)
+# test03
+# issubset()
+-checks if all elements of a set are present in another set
+syntax: seta.isdubset(setb)
+it returns  a boolean value true or false.
+# isuperset()
+-checks if a set contains all elents of other set.
+ syntax: seta.isuperset(setb)
+it returns  a boolean value true or false.
+# symmetric_differnce()
+- returns elements that are in either set, but not in both.
+syntax: set1.symmetric_differnce(set2)
